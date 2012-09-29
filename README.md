@@ -6,15 +6,15 @@ I'm using the [Adafruit Pi Cobbler Breakout Kit](http://www.adafruit.com/product
 
 ### Ruby
 
-`blink.rb` uses the gpio gem to make the led blink. If you use a revision 2 Raspberry Pi you'll need to use the [Revision 2 fork](https://github.com/5v3n/gpio) to make it work (see [here](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) and [here](http://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/)).
+`blink.rb` uses the gpio gem to make the led blink. 
 
-Run `./blink.rb` (no `sudo` necessary)
+Run `./blink.rb` or `bundle exec ./blink.rb` when using bundler (mind the Ruby notes below)
 
 ### Python
 
 `blink.py` is bascially an even simpler version of @ladyada 's [LED E-Mail Notifier](https://gist.github.com/3062225). 
 
-Run `sudo blink.py`
+Run `sudo blink.py` (mind the Python notes below)
 
 ### Shell Script
 
@@ -22,12 +22,18 @@ Run `sudo blink.py`
 
 Run `sudo blink.sh`
 
-## more to come
+## Notes
 
-Let's play around a little... feel free to contribute other basic examples!
+### Ruby
 
-## General Python hints
+The example is made for the Revision 2 Raspberry Pi and uses the [Revision 2 fork of the gpio gem](https://github.com/5v3n/gpio). See [drogon's](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) and [raspberrypi-spy's](http://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/) wrap up of the new wiring.
+
+### Python
 
 My python skills are weak, but it seems to me like:
 
 Currently `pip` does not offer the version of [RPi.GPIO](http://pypi.python.org/pypi/RPi.GPIO) needed for revision 2 RaspberryPi boards. You can find the needed [0.4.0+ version here](http://pypi.python.org/pypi/RPi.GPIO#downloads).
+
+## more to come
+
+Let's play around a little... feel free to contribute other examples!
