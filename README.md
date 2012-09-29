@@ -4,6 +4,12 @@
 
 I'm using the [Adafruit Pi Cobbler Breakout Kit](http://www.adafruit.com/products/914) to connect an LED to pin 24. This code let's the led - drumroll - blink!
 
+### Ruby
+
+`blink.rb` uses the gpio gem to make the led blink. If you use a revision 2 Raspberry Pi you'll need to use the [Revision 2 fork](https://github.com/5v3n/gpio) to make it work (see [here](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) and [here](http://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/)).
+
+Run `./blink.rb` (no `sudo` necessary)
+
 ### Python
 
 `blink.py` is bascially an even simpler version of @ladyada 's [LED E-Mail Notifier](https://gist.github.com/3062225). 
