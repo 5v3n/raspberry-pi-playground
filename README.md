@@ -1,6 +1,8 @@
 # RaspberryPi GPIO demos
 
-## Get busy blinking!
+The Raspberry Pi offer physical computing capabilites - this is a basic checkout and a playgound to see how to start and what's possible. Hope to see contributions soon!
+
+## `blink` - Get busy blinking!
 
 I'm using the [Adafruit Pi Cobbler Breakout Kit](http://www.adafruit.com/products/914) to connect an LED to pin 24. This code let's the led - drumroll - blink!
 
