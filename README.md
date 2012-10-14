@@ -22,7 +22,7 @@ Run `sudo blink.py` (mind the Python notes below)
 
 `blink.sh` is a wrap-up of the shell examples from [liminastudio's introduction to gpio](http://log.liminastudio.com/writing/tutorials/tutorial-how-to-use-your-raspberry-pi-like-an-arduino).
 
-Run `sudo blink.sh`
+Run `sudo ./blink.sh`
 
 ## Notes
 
