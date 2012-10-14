@@ -1,6 +1,8 @@
 # RaspberryPi GPIO demos
 
-The Raspberry Pi offer physical computing capabilites - this is a basic checkout and a playgound to see how to start and what's possible. Hope to see contributions soon!
+The Raspberry Pi offer physical computing capabilites - this is a basic checkout and a playgound to see how to start and what's possible.
+
+First example uses basic digital out. Ordered some MCP3008 for PWM action - if you can't wait feel free to add an example yourself ;-). Or add an digital in / button example. Let's play around a little!
 
 ## `blink` - Get busy blinking!
 
